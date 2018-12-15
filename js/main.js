@@ -17,7 +17,11 @@
 
             showDetails : false,
 
-            isHidden: true
+            isHidden: true,
+
+            moredata: "",
+
+            thumb: "",
 
         },
 
@@ -61,6 +65,8 @@
                 this.videosource = dataKey;
 
                 this.showDetails = true;
+                this.moredata = currentData[0].synopsis;
+                this.thumb = currentData[0].more_thumb;
 
             },
 

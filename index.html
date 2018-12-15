@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <title>Document</title>
+    <title>Movie Poster Assignment</title>
 </head>
 <body>
     <main id="app"><!-- > Main tag for Vue <!-->
@@ -17,8 +17,9 @@
                 <button v-on:click="fetchSingle" :data-movie="video.id" class="more-details">More Details...</button>
                 <a :href="video.vid_path" v-on:click="loadMovie">
                     <img :src="'images/' + video.vid_thumb" alt="movie poster">
+                    
                 </a>
-                <p>Put genre data here</p>
+                <!-- <p>Put genre data here</p> -->
             </li>
         </ul>
 
@@ -32,11 +33,18 @@
         <span v-on:click="isHidden = true" class="close">close</span>
         <section class="hidden-movies" :class="{ 'show-movie' : showDetails }"> <!--bind to the class here-->
             <h3 class="movie-title">{{ videotitle }}</h3>
-            <video :src="'video/' + videosource" autoplay ></video>
-            
+
             <div class="movie-details">
-                <p>{{ videodescription }}</p>
+                <p id="vidDesc">{{ videodescription }}</p>
+                <p id="moreData">{{ moredata }}</p>
+        
             </div>
+
+         
+            <img id="additionalImage" :src="'images/' + thumb">
+            <video id="trailerVid" :src="'video/' + videosource" autoplay ></video>
+            
+            
 
       
 
