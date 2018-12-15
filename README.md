@@ -44,7 +44,7 @@ Open the index.html in a browser, Chrome works best
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Research
-This poster required some research into the plot of each video.
+This poster required some research into the plot of each video. Below are some of the websites I used:
 
 * https://en.wikipedia.org/wiki/Main_Page
 * https://www.imdb.com/
