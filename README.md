@@ -52,4 +52,6 @@ This poster required some research into the plot of each video.
 
 ## Continuing With Updates
 
-* 
+* Since the main content (images/text) is stored outside of the website files, it is easier to manage and you can manipulate data quickly
+* To update any content including images, videos, or text, you can simply make any adjustments on the database and that information will be grabbed and inserted the same on the page every instance it is loaded
+* Making any changes to information in the database will automatically be changed on your webpage
