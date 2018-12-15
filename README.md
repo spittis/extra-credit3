@@ -16,16 +16,20 @@ From the command line:
 ```
 $ git init
 ```
+```
 Clone this repository
+```
 ```
 $ git clone https://github.com/spittis/extra-credit3.git
 ```
+```
 $ cd extra-credit3
+```
 ```
 Open the index.html in a browser, Chrome works best
 ```
 
-## Built With
+## Built With/Tools Used
 
 * [Vue.js](https://vuejs.org/) - The JavaScript framework that helps create a more maintainable and testable code base.
 
@@ -46,6 +50,6 @@ This poster required some research into the plot of each video.
 * https://www.imdb.com/
 
 
-## Acknowledgments
+## Continuing With Updates
 
 * 
