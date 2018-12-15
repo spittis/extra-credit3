@@ -32,7 +32,9 @@ Open the index.html in a browser, Chrome works best
 ## Built With/Tools Used
 
 * [Vue.js](https://vuejs.org/) - The JavaScript framework that helps create a more maintainable and testable code base.
-
+* Javascript - used to load content onto the main page
+* PHP - used to connect to database and display content into HTML
+* mySQL - hosts the database that stores images, video, and text for the webpage
 
 ## Authors
 
